@@ -10,7 +10,7 @@ namespace DemoConsole
     {
         public static void Main(string[] args)
         {
-            new Bai17().Run();
+            new Bai18().Run();
         }
     }
     public class Member
