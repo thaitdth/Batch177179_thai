@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoConsole
 {
-    public class Baivenha2
+    public class tamthoi
     {
         public void Run()
         {
