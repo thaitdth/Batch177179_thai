@@ -10,7 +10,7 @@ namespace DemoConsole.ClassandMethod
     {
         public static void Main(string[] args)
         {
-            new Student().Run();
+            new RefAndOut().Run();
         }
     }
 }
