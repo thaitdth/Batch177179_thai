@@ -10,7 +10,8 @@ namespace DemoConsole.ClassandMethod
     {
         public static void Main(string[] args)
         {
-            new RefAndOut().Run();
+            new AreaRectangle(10, 5).Run();
+            new AreaRectangle(20, 5).Run();
         }
     }
 }
