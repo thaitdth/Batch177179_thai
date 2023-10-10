@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoConsole
+namespace DemoConsole.ClassandMethod
 {
-    public class Bai1
+    public class Program
     {
-        public void Run()
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadLine();
+            new Student().Run();
         }
     }
 }

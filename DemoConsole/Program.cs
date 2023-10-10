@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoConsole
+namespace DemoConsole.Operators
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            new Bai19().Run();
+            new Baivenha2().Run();
         }
     }
     public class Member
