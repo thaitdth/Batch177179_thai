@@ -10,7 +10,7 @@ namespace DemoConsole
     {
         public static void Main(string[] args)
         {
-            new tamthoi().Run();
+            new Bai19().Run();
         }
     }
     public class Member
