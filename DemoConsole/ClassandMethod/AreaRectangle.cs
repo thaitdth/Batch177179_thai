@@ -11,6 +11,10 @@ namespace DemoConsole.ClassandMethod
         private double length;
         private double width;
 
+        public AreaRectangle()
+        {
+
+        }
         public AreaRectangle(double length, double width) 
         {
             this.length = length;

@@ -10,8 +10,17 @@ namespace DemoConsole.ClassandMethod
     {
         public static void Main(string[] args)
         {
-            new AreaRectangle(10, 5).Run();
-            new AreaRectangle(20, 5).Run();
+            List<StudentInfo> list = new List<StudentInfo>()
+            {
+                new StudentInfo(id: 1,name: "Lan",age: 28,address: "Da Nang"),
+                new StudentInfo(2, "Bao", 27, "Quang Nam"),
+                new StudentInfo(3, "Anh", 25, "Hue")
+            };
+            foreach (var s in list)
+            {
+                Console.WriteLine("HELLO");
+                Console.WriteLine(s.ToString());
+            }
         }
     }
 }
