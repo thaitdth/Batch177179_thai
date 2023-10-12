@@ -13,10 +13,10 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			StudentS objStudent = new StudentS();
-			Grade objGrade = new Grade();
-			objStudent.PrintDetails();
-			objGrade.PrintDetails();
+			Lion lion = new Lion();
+			lion.Eat();
+			lion.AnimalSound();
+			lion.Running();
 		}
 	}
 }
