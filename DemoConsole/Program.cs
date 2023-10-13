@@ -13,10 +13,7 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			Lion lion = new Lion();
-			lion.Eat();
-			lion.AnimalSound();
-			lion.Running();
+			new TestVirtual().ToString();
 		}
 	}
 }
