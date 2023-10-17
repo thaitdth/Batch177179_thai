@@ -7,16 +7,14 @@ using DemoConsole.ClassandMethod;
 using DemoConsole.Operators;
 using DemoConsole.Session6;
 using DemoConsole.Session8;
-
+using ABC = Automotive;
 namespace DemoConsole
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			new University().Run();
-			new SalaryDetail().Run();
-			new Automotive.SpareParts().Display();
+			new DivisionError().Run();
 		}
 	}
 }
