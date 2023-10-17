@@ -14,7 +14,22 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
+			new University().Run();
 			new SalaryDetail().Run();
+			new Automotive.SpareParts().Display();
+		}
+	}
+}
+
+namespace Automotive
+{
+	public class SpareParts
+	{
+		string _spareName;
+		public SpareParts() { _spareName = "Gear Box"; }
+		public void Display()
+		{
+			Console.WriteLine("Spare Part name: " + _spareName);
 		}
 	}
 }
