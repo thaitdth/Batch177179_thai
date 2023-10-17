@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DemoConsole.ClassandMethod;
 using DemoConsole.Operators;
 using DemoConsole.Session6;
+using DemoConsole.Session8;
 
 namespace DemoConsole
 {
@@ -13,7 +14,9 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			new TestVirtual().ToString();
+			University.UniversityName = "FPT University";
+			University.Department = "CF";
+			Console.WriteLine($"School {University.UniversityName} - {University.Department}");
 		}
 	}
 }
