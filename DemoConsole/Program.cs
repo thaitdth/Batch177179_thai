@@ -14,7 +14,7 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			new Test().Run();
+			new RectangleDelegate2().Run();
 		}
 	}
 }
