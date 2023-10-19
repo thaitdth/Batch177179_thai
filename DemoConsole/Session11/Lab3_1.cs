@@ -33,7 +33,7 @@ namespace DemoConsole.Session11
 			return dynamicA / dynamicB;
 		}
 	}
-	public class Lab3
+	public class Lab3_1
 	{
 		private void Swap <T> (ref T a, ref T b)
 		{
