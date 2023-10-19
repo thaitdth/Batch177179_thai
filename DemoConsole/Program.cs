@@ -9,13 +9,14 @@ using DemoConsole.Session6;
 using DemoConsole.Session8;
 using ABC = Automotive;
 using DemoConsole.Session10;
+using DemoConsole.Session11;
 namespace DemoConsole
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			new LambdaExpression().Run();
+			new Lab3().Run();
 		}
 	}
 }
