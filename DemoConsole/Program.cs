@@ -8,13 +8,14 @@ using DemoConsole.Operators;
 using DemoConsole.Session6;
 using DemoConsole.Session8;
 using ABC = Automotive;
+using DemoConsole.Session10;
 namespace DemoConsole
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			new RectangleDelegate2().Run();
+			new LambdaExpression().Run();
 		}
 	}
 }
