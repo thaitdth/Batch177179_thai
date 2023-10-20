@@ -22,7 +22,7 @@ namespace DemoConsole.Session10
 			Console.WriteLine(msg);
 		}
 	}
-	public class ExampleMulticaseDelegate
+	public class ExampleMulticastDelegate
 	{
 		public void Run()
 		{

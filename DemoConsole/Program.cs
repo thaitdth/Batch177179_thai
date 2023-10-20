@@ -16,7 +16,7 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			new HomeworkDelegate().Run();
+			new Lab3_4().Run();
 		}
 	}
 }
