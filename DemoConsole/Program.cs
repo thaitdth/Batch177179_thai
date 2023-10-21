@@ -10,13 +10,14 @@ using DemoConsole.Session8;
 using ABC = Automotive;
 using DemoConsole.Session10;
 using DemoConsole.Session11;
+using DemoConsole.Lab4;
 namespace DemoConsole
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			new Lab3_4().Run();
+			new Lab4.ExampleBalance().Run();
 		}
 	}
 }

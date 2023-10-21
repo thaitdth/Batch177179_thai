@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoConsole.Session11
 {
-	public class Lab3_4
+	public class ExampleBalance
 	{
 		public void Run()
 		{
