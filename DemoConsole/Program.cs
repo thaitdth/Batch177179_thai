@@ -17,7 +17,7 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			new Lab4_4.Account().Run();
+			new Lab4.ExampleBalance().Run();
 		}
 	}
 }

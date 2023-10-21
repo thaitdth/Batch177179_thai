@@ -20,7 +20,7 @@ namespace DemoConsole.Lab4
 				OnBalanceChanged(balance);
 			}
 		}
-		protected virtual void OnBalanceChanged(decimal newBalance)
+		public void OnBalanceChanged(decimal newBalance)
 		{
 			BalanceChanged?.Invoke(newBalance);
 		}
@@ -31,12 +31,21 @@ namespace DemoConsole.Lab4
 		{
 			Account account = new Account();
 			account.BalanceChanged += HandleBalanceChanged;
-			account.Balance = 1000;
+			while (true)
+			{
+				account.Balance = GetDecimal("Please input new balance: ");
+			}
 			Console.ReadLine();
 		}
 		void HandleBalanceChanged(decimal newBalance)
 		{
 			Console.WriteLine("Account balance has changed. New balance: " + newBalance);
+		}
+
+		decimal GetDecimal(string msg)
+		{
+			Console.WriteLine(msg);
+			return Convert.ToDecimal(Console.ReadLine());
 		}
 	}
 }
