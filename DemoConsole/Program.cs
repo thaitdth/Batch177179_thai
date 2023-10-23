@@ -11,13 +11,14 @@ using ABC = Automotive;
 using DemoConsole.Session10;
 using DemoConsole.Session11;
 using DemoConsole.Lab4;
+using DemoConsole.Session13;
 namespace DemoConsole
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			new Lab4.ExampleBalance().Run();
+			new CalculateRectangle().Run();
 		}
 	}
 }

@@ -27,6 +27,10 @@ namespace DemoConsole.Lab4
 			{
 				Console.WriteLine("Tuesday is not found in the hashtable");
 			}
+			foreach (DictionaryEntry entry in daysOfWeek)
+			{
+				Console.WriteLine("Key: {0}, Value: {1}", entry.Key, entry.Value);
+			}
 		}
 	}
 }
