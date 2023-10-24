@@ -18,7 +18,7 @@ namespace DemoConsole
 	{
 		public static void Main(string[] args)
 		{
-			new CalculateRectangle().Run();
+			new Exercise1().Run();
 		}
 	}
 }
