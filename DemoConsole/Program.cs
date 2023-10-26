@@ -12,6 +12,7 @@ using DemoConsole.Session10;
 using DemoConsole.Session11;
 using DemoConsole.Lab4;
 using DemoConsole.Session13;
+using DemoConsole.Exam;
 namespace DemoConsole
 {
 	public class Program
