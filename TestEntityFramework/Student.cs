@@ -11,7 +11,8 @@ namespace TestEntityFramework
 	{
 		public int StudentId { get; set; }
 		[Required]
-		public string Name { get; set; }
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
 		public string Class { get; set; }
 		public double GPA { get; set; }
 	}

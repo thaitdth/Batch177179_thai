@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A1CDB69-6622-401A-87BD-A3E30F6B9789}</ProjectGuid>
+    <ProjectGuid>{0EC7AB76-325B-49B5-BA5C-E48C010BC3FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TestEntityFramework</RootNamespace>
     <AssemblyName>TestEntityFramework</AssemblyName>

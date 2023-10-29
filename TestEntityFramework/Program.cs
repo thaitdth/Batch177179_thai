@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestEntityFramework;
 
 namespace TestEntityFramework
 {
@@ -17,9 +16,10 @@ namespace TestEntityFramework
 				var student = new Student
 				{
 					StudentId = 1,
-					Name = "Thai Tran",
+					FirstName = "Thai",
+					LastName = "Tran",
 					Class = "7a",
-					GPA = 5.5f
+					GPA = 7.5
 				};
 				context.Student.Add(student);
 				context.SaveChanges();
