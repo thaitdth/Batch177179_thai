@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CodeFirstDemoFrameWork;
+using TestEntityFramework;
 
-namespace CodeFirstDemoFramework
+namespace TestEntityFramework
 {
 	public class Program
 	{
@@ -14,12 +14,14 @@ namespace CodeFirstDemoFramework
 			using (var context = new Context())
 			{
 				context.Database.CreateIfNotExists();
-				var person = new Person
+				var student = new Student
 				{
-					FirstName = "Thai",
-					LastName = "Tran"
+					StudentId = 1,
+					Name = "Thai Tran",
+					Class = "7a",
+					GPA = 5.5f
 				};
-				context.People.Add(person);
+				context.Student.Add(student);
 				context.SaveChanges();
 			}
 		}
