@@ -33,12 +33,15 @@ public partial class MyStoreContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.ProductId).HasName("PK_Products_1");
-
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
             entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
             entity.Property(e => e.ProductName).HasMaxLength(40);
             entity.Property(e => e.UnitPrice).HasColumnType("money");
+
+            entity.HasOne(d => d.Category).WithMany(p => p.Products)
+                .HasForeignKey(d => d.CategoryId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Products_Categories");
         });
 
         OnModelCreatingPartial(modelBuilder);

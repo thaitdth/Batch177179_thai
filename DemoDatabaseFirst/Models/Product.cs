@@ -14,4 +14,6 @@ public partial class Product
     public short UnitsInStock { get; set; }
 
     public int CategoryId { get; set; }
+
+    public virtual Category Category { get; set; } = null!;
 }
